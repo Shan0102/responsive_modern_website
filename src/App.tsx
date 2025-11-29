@@ -3,6 +3,8 @@ import Navbar from "./components/Layout/Navbar";
 import MouseShadow from "./components/background/MouseShadow";
 import Features from "./components/features/Features";
 import Pricing from "./components/pricing/Pricing";
+import Testimonials from "./components/testimonials/Testimonials";
+import Footer from "./components/footer/Footer";
 
 function App() {
     return (
@@ -13,6 +15,8 @@ function App() {
             <Hero />
             <Features />
             <Pricing />
+            <Testimonials />
+            <Footer />
         </div>
     );
 }
