@@ -23,7 +23,7 @@ const PricingCard = ({ plan }: PricingCardProps) => {
                     : "border border-slate-800/60 hover:border-slate-700/60"
             }`}
         >
-            <div className="bg-linear-to-br from-white/5 rounded-xl hover:from-white/10 transition ease-in-out duration-200 p-3 sm:p-4 md:p-5">
+            <div className="h-full bg-linear-to-br from-white/5 rounded-xl hover:from-white/10 transition ease-in-out duration-200 p-3 sm:p-4 md:p-5">
                 <div className="flex flex-col justify-between h-full gap-6 sm:gap-7 md:gap-8">
                     <PricingBadge isActive={plan.mostPopular} />
                     <div className="space-y-4 sm:space-y-5 md:space-y-6">
