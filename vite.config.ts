@@ -12,5 +12,5 @@ export default defineConfig({
         }),
         tailwindcss(),
     ],
-    base: "/codeflow_responsive_modern_website",
+    base: "/responsive_modern_website",
 });
